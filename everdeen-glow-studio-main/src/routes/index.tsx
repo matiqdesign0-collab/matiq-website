@@ -378,6 +378,7 @@ const WORKS: Work[] = [
   {
     category: "Brand Identity · Logo Design",
     title: "Brand Design",
+    image: "/brand-design.png",
     desc: "A branding and logo design project built around a clear identity system, crafted end to end in Adobe Illustrator.",
     href: "https://www.behance.net/gallery/220623491/Brand-Design",
     cta: "View Case Study",
