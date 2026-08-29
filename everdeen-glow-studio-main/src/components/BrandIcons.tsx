@@ -1,5 +1,4 @@
 type P = { size?: number; className?: string };
-import coreldrawAsset from "@/assets/coreldraw.png.asset.json";
 
 const AdobeTile = ({ size = 36, bg, stroke, label, text }: P & { bg: string; stroke: string; label: string; text: string }) => (
   <svg width={size} height={size} viewBox="0 0 48 48" role="img" aria-label={label}>
@@ -29,7 +28,7 @@ export const AfterEffectsIcon = (p: P) => (
 );
 export const CorelDrawIcon = ({ size = 36, className = "" }: P) => (
   <img
-    src={coreldrawAsset.url}
+    src={"/coreldraw.png"}
     alt="CorelDRAW"
     width={size}
     height={size}
