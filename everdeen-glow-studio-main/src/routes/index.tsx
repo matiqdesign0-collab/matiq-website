@@ -183,7 +183,7 @@ function Hero() {
               <div className="relative">
                 <div className="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-primary/30 via-primary-glow/15 to-transparent blur-3xl" />
                 <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-surface shadow-[0_40px_120px_-40px_rgba(111,155,208,0.5)]">
-                  <img src={"/pghub-cover.png"} alt="PGHub — PG finder and booking app UI/UX case study by Matadar Yahya" width={1600} height={1200} fetchPriority="high" className="h-auto w-full" />
+                  <img src={"/pghub-cover.webp"} alt="PGHub — PG finder and booking app UI/UX case study by Matadar Yahya" width={1600} height={1200} fetchPriority="high" className="h-auto w-full" />
                   <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
                 </div>
                 <div className="absolute -left-4 bottom-6 hidden glass rounded-2xl p-4 shadow-2xl md:block">
@@ -271,7 +271,7 @@ function About() {
               <figure className="relative rounded-[24px] border border-border bg-surface p-4">
                 <div className="relative aspect-square overflow-hidden rounded-[16px]">
                   <img
-                    src={"/matadar-yahya.jpeg"}
+                    src={"/matadar-yahya.webp"}
                     alt="Portrait of Matadar Yahya, independent UI/UX and packaging designer"
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.04]"
@@ -353,7 +353,7 @@ const WORKS: Work[] = [
     category: "UI/UX Design · UX Case Study",
     title: "PGHub — Modern PG Finder & Booking App",
     desc: "A complete UX case study for a PG discovery and booking app for students and working professionals.",
-    image: "/pghub-cover.png",
+    image: "/pghub-cover.webp",
     href: "https://www.behance.net/gallery/253307339/PGHub-Modern-PG-Finder-Booking-App-UIUX-Case-Study",
     cta: "View Case Study",
     challenge: "Finding verified PG accommodation meant scattered listings, no trust signals and no way to compare options fairly.",
@@ -366,7 +366,7 @@ const WORKS: Work[] = [
     category: "Graphic Design · Print",
     title: "Chhatral Environment Brochure Design",
     desc: "A corporate brochure for Chhatral Environment Management System Pvt. Ltd., built on hierarchy and print-ready precision.",
-    image: "/chhatral-brochure.png",
+    image: "/chhatral-brochure.webp",
     href: "https://www.behance.net/gallery/235108263/Chhatral-Environment-Brochure-Design/modules/1350645015",
     cta: "View on Behance",
     challenge: "Dense technical and environmental information had to feel credible and effortless to scan for corporate stakeholders.",
@@ -378,7 +378,7 @@ const WORKS: Work[] = [
   {
     category: "Brand Identity · Logo Design",
     title: "Brand Design",
-    image: "/brand-design.png",
+    image: "/brand-design.webp",
     desc: "A branding and logo design project built around a clear identity system, crafted end to end in Adobe Illustrator.",
     href: "https://www.behance.net/gallery/220623491/Brand-Design",
     cta: "View Case Study",
