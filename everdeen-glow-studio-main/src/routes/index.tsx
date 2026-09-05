@@ -7,18 +7,55 @@ import {
   MapPin, MessageCircle, Plus, ChevronDown,
   Brain, Ruler, TrendingUp, Gem, Boxes, Zap, Layers,
 } from "lucide-react";
-import { PhotoshopIcon, IllustratorIcon, AfterEffectsIcon, CorelDrawIcon, FigmaIcon } from "@/components/BrandIcons";
+import {
+  PhotoshopIcon,
+  IllustratorIcon,
+  AfterEffectsIcon,
+  CorelDrawIcon,
+  FigmaIcon
+} from "@/components/BrandIcons";
 
 export const Route = createFileRoute("/")({
   component: Index,
+
   head: () => ({
     meta: [
-      { title: "MATIQ Design — UI/UX, Branding & Packaging Designer" },
-      { name: "description", content: "MATIQ Design by Matadar Yahya — independent UI/UX, branding, packaging and graphic designer helping businesses create premium digital and visual experiences." },
-      { property: "og:title", content: "MATIQ Design — UI/UX, Branding & Packaging Designer" },
-      { property: "og:description", content: "MATIQ Design by Matadar Yahya — independent UI/UX, branding, packaging and graphic designer helping businesses create premium digital and visual experiences." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      {
+        title: "MATIQ Design — UI/UX, Branding & Packaging Designer",
+      },
+
+      {
+        name: "description",
+        content:
+          "MATIQ Design by Matadar Yahya — independent UI/UX, branding, packaging and graphic designer helping businesses create premium digital and visual experiences.",
+      },
+
+      // Google Search Console verification
+      {
+        name: "google-site-verification",
+        content: "85mHjzcx4BX7nUE79shTgI4Zqos8WaTAO46IbEmcyI4",
+      },
+
+      {
+        property: "og:title",
+        content: "MATIQ Design — UI/UX, Branding & Packaging Designer",
+      },
+
+      {
+        property: "og:description",
+        content:
+          "MATIQ Design by Matadar Yahya — independent UI/UX, branding, packaging and graphic designer helping businesses create premium digital and visual experiences.",
+      },
+
+      {
+        property: "og:type",
+        content: "website",
+      },
+
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
     ],
   }),
 });
